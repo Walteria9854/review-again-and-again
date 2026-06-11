@@ -7,16 +7,25 @@ public class bankDetails {
     private String phoneNumber;
 
     public bankDetails(){
+        this("56789", 2.50, "default name",
+            "Default address", "Default phone");
         System.out.println("Empty constructor called");
     }
 
     public bankDetails(String number, double balance, String name, String emailTemp, String phoneNumberTemp){
         System.out.println("Account first setup with information");
-        this.number = number;
+        setNumber(number);
         this.balance = balance;
         this.name = name;
         email = emailTemp;
         phoneNumber = phoneNumberTemp;
+    }
+
+    public bankDetails(String name, String email, String phoneNumber) {
+        this("9999", 100.55, name, email , phoneNumber);
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
     }
 
     public void depositFund(double depositAmount){
