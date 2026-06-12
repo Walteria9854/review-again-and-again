@@ -5,7 +5,7 @@ public class customerInformation {
   private String email;
 
   public customerInformation(){
-    this("Taro", 100, "sample@gmail.com");
+    this("Taro", "sample@gmail.com");
     System.out.println("Empty contructor dedacated. Need to create one automatic");
   }
 
@@ -16,8 +16,7 @@ public class customerInformation {
   }
 
   public customerInformation(String name, String email) {
-    this.name = name;
-    this.email = email;
+    this(name, 1000, email);
   }
 
   public String getName() {
