@@ -7,8 +7,17 @@ public class Main {
         System.out.println("Age = " + tim.getAge());
         System.out.println("Pay = " + tim.collectPay());
 
-        Employee joe = new Employee("Joe", "11/11/1990", )
+        SalariedEmployee joe = new SalariedEmployee("Joe", "11/11/1990","03/03/2020", 35000);
+        System.out.println(joe);
+        System.out.println("Joe's Paycheck = $" + joe.collectPay());
+
+        hourlyEmployee Mary = new hourlyEmployee("Mary", "05/05/1970", "03/03/2021", 15);
+        System.out.println(Mary);
+        System.out.println("Collect pay information = $" + Mary.collectPay());
+        System.out.println("Double Holiday pay = $" + Mary.getDoublePay());
 
 
     }
+
+
 }
