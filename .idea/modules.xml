@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java course review again again.iml" filepath="$PROJECT_DIR$/Java course review again again.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 AllAboutStrings/Session7 AllAboutStrings.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 AllAboutStrings/Session7 AllAboutStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 ClassesChallenge/Session7 ClassesChallenge.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 ClassesChallenge/Session7 ClassesChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 Classpass/Session7 Classpass.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 Classpass/Session7 Classpass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 ConstructorChallenge/Session7 ConstructorChallenge.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 ConstructorChallenge/Session7 ConstructorChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 Inheritance/Session7 Inheritance.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 Inheritance/Session7 Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 InheritanceChallenge/Session7 InheritanceChallenge.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 InheritanceChallenge/Session7 InheritanceChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 RecordProject/Session7 RecordProject.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 RecordProject/Session7 RecordProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 StringFormatting/Session7 StringFormatting.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 StringFormatting/Session7 StringFormatting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7 TheObjectClass/Session7 TheObjectClass.iml" filepath="$PROJECT_DIR$/Session7-1/Session7 TheObjectClass/Session7 TheObjectClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Session7-1/Session7-1.iml" filepath="$PROJECT_DIR$/Session7-1/Session7-1.iml" />
     </modules>

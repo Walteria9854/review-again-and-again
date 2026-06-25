@@ -10,6 +10,7 @@ public class hourlyEmployee extends Employee{
 
     @Override
     public double collectPay() {
+
         return 40 * hourlyPayRate;
     }
 
