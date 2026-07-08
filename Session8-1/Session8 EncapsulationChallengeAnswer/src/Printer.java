@@ -24,4 +24,8 @@ public class Printer {
     pagesPrinted += jobPages;
     return jobPages;
   }
+
+  public int getPagesPrinted() {
+    return pagesPrinted;
+  }
 }
