@@ -8,6 +8,12 @@ public class Main {
         Car ferrai = new GasPoweredCar("2022 Blue Ferrari 296 GTS", 15.4, 6);
         runRace(ferrai);
 
+        Car tesla = new ElectricCar("2022 Red Tesla Model 3", 568, 75);
+
+        runRace(tesla);
+
+        Car ferrariHybrid = new HybirdCar("2022 Black Ferrari SF90 Stradale", 16, 8, 8);
+        runRace(ferrariHybrid);
 
     }
 
