@@ -12,6 +12,7 @@ public class PersonalComputer extends Product{
     }
 
     private void drawLogo(){
+
         monitor.drawPixelAt(1200, 50, "yellow");
     }
 
