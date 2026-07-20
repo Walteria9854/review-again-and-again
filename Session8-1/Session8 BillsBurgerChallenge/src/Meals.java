@@ -16,6 +16,10 @@ public class Meals {
     this.sideItem = sideItem;
   }
 
+  public String getHamburger() {
+    return hamburger;
+  }
+
   public void createOrder(){
     System.out.println("creating order with starting from " + hamburger);
     System.out.println("drink is " + drink);
@@ -55,7 +59,7 @@ class Drink extends Meals{
   @Override
   public void createOrder() {
     System.out.println("Set Meal with the drinks");
-    System.out.println("hamburger will be " + hamburger);
+    System.out.println("hamburger will be " + super.hamburger);
     System.out.println("Drink set will be " + type + "with " + size);
     System.out.println("Drink price will be " + price);
 

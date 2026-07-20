@@ -8,13 +8,14 @@ public class Main {
     Meals testMeal2 = new Meals("Cheese Burger");
     finalOrder(testMeal2);
 
-    Meals testMeal3 = new Drink("Cheese Burger", "Fries", "Orange Juice", "S", 100);
+    Drink testMeal3 = new Drink("Cheese Burger", "Orange Juice", "SMALL", 100);
     finalOrder(testMeal3);
   }
 
 
 
   public static void finalOrder(Meals meals){
+    meals.getHamburger();
     meals.createOrder();
 
 
