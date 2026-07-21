@@ -36,6 +36,26 @@ public class Burger extends Item{
         this.extra3 = new Item("Topping", extra3, getExtraPrice(extra3));
     }
 
+    public void printItemizedList(){
+        printItem("BASE BURGER", getBasePrice());
+        if(extra1 != null){
+            extra1.printItem();
+        }
+        if(extra2 != null){
+            extra2.printItem();
+        }
+        if(extra3 != null){
+            extra3.printItem();
+        }
+    }
+
+    @Override
+    public void printItem() {
+        printItemizedList();
+        System.out.println("-".repeat(3));;
+        super.printItem();
+    }
+
     public Burger(String type, String name, double price, Item extra1) {
         super(type, name, price);
         this.extra1 = extra1;

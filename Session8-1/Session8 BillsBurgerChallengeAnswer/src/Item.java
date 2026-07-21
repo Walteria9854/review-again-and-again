@@ -40,6 +40,7 @@ public class Item {
     }
 
     public void printItem(){
+
         printItem(getName(), getAdjustedPrice());
     }
 }
