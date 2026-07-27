@@ -7,7 +7,7 @@ public class DeluxeBurger extends Burger{
     super(name, price);
   }
 
-  @Override
+
   public void addToppings(String extra1, String extra2, String extra3, String extra4, String extra5) {
     super.addToppings(extra1, extra2, extra3);
     deluxe1 = new Item("TOPPING", extra4, 0);
@@ -27,6 +27,6 @@ public class DeluxeBurger extends Burger{
 
   @Override
   public double getExtraPrice(String toppingName) {
-    return super.getExtraPrice(toppingName);
+    return 0;
   }
 }
