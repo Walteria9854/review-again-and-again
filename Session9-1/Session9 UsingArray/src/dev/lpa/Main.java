@@ -43,11 +43,9 @@ public class Main {
 
        if(Arrays.equals(s1, s2)){
            System.out.println("Arrays are equal");
+       } else {
+           System.out.println("Arrays are not equal");
        }
-
-
-
-
     }
 
     private static int[] getRandomArray(int len){
