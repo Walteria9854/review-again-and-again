@@ -1,0 +1,24 @@
+package dev.lpa;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        List<Mappable> mappables = new ArrayList<>();
+        mappables.add(new Building("Sydeny Town Hall", UsageType.GOVERNMENT));
+        mappables.add(new Building("Sydeny Opera House", UsageType.ENTERAINMENT));
+        mappables.add(new Building("Stadium Australia", UsageType.SPORTS));
+
+        mappables.add(new UtilityLine("College St", Utilitytype.FIBER_OPTIC));
+        mappables.add(new UtilityLine("Olympic Blvd", Utilitytype.WATER));
+
+        for(var m : mappables){
+            Mappable.mapIt(m);
+        }
+
+
+    }
+}
